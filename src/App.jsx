@@ -1,14 +1,14 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
 import RutasApp from "./rutas/RutasApp";
-import Navegacion from "./componentes/Navegacion";
+import "./estilos/globales.scss"; // o donde tengas los estilos
 
-const App = () => {
+function App() {
   return (
-    <>
-      <Navegacion />
+    <BrowserRouter>
       <RutasApp />
-    </>
+    </BrowserRouter>
   );
-};
+}
 
 export default App;
