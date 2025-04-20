@@ -1,0 +1,22 @@
+@import './variables';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $fuente-principal;
+  background-color: $color-fondo;
+  color: $color-texto;
+}
+
+a {
+  color: $color-primario;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3 {
+  color: $color-primario;
+}

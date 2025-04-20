@@ -1,0 +1,29 @@
+@import './variables';
+
+.noticias-destacadas {
+  padding: 2rem;
+  background-color: $color-blanco;
+  border-left: 5px solid $color-primario;
+  margin-bottom: 2rem;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  article {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.contacto-rapido {
+  padding: 2rem;
+  background-color: $color-secundario;
+  color: $color-blanco;
+
+  a {
+    color: $color-blanco;
+    font-weight: bold;
+  }
+}
