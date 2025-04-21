@@ -7,6 +7,15 @@ body {
   color: $color-texto;
 }
 
+.parte-superior{
+  text-align: center;
+  color: $color-blanco;
+
+  ul{
+    color: $color-blanco;
+  }
+}
+
 .logo{
   max-width: 300px;
   max-height: 300px;
@@ -21,6 +30,6 @@ a {
   }
 }
 
-h1, h2, h3 {
+h2, h3 {
   color: $color-primario;
 }
